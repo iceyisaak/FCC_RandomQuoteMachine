@@ -12,8 +12,17 @@ p{
   text-align:center;
 }
 button{
-  margin-top: 30px;
+  margin: auto;
+  display: block;
+  
 }
+.btns{
+  background-color: blue;
+  margin: 20px 30px;
+  
+  flex:1;
+}
+
 .card{
  display: block;
  text-align: center;
@@ -21,7 +30,8 @@ button{
  box-sizing: border-box;
  border-radius: 15px;
  width: 80%;
- margin: 5% auto 2%;
- padding: 5% 10% 6%;
+ height: 300px;
+ margin: 5% auto 0%;
+ padding: 10% 10% 6%;
   
 }
