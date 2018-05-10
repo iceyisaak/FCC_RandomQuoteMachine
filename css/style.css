@@ -13,14 +13,17 @@ p{
 }
 button{
   margin: auto;
-  display: block;
-  
 }
 .btns{
-  background-color: blue;
-  margin: 20px 30px;
+  background-color: 0;
+  margin: 15px 30px;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
   
-  flex:1;
+
 }
 
 .card{
