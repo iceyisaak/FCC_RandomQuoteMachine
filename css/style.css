@@ -1,42 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Play');
+
+html,body{
+  min-height:100%;
+}
+
 body{
-  background-color: #fff;
-  background-image: url('https://c.pxhere.com/photos/8c/f7/letter_handwriting_ink_pen_written_correspondence_vintage_romantic-731044.jpg!d');
+  background-color: #000;
+  background-image: url('https://images.pexels.com/photos/115547/pexels-photo-115547.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
 
 }
 h1{
   text-align: center;
-  margin: 5% auto;
+  margin: 5% auto 2%;
+  font-size: 4em;
+  font-family: 'Amatic SC', cursive;
+  color:#468c00;
+  width:100%;
+  max-width:960px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+h2{
+  color:#ECEBE6;
+  font: 1.5em 'Play', sans-serif;
 }
 h4{
   text-align: right;
+  color:#ECEBE6;
+  font: 1.1em 'Play', sans-serif;
 }
-p{
+p, .credit{
   text-align:center;
+  color:#f9d800;
+  margin-bottom:30px; 
+  text-decoration:none;
+  font-family: 'Play', sans-serif;
 }
 button{
   margin: auto;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  font-weight: bold;
+  font: 1.1em 'Play', sans-serif;
+  color: #fff;
+}
+
+button:hover{
+ color:#fff;
+ background-color: rgba(255,255,255,0.3);
+ box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.67);
+ cursor: pointer;
 }
 .btns{
   background-color: 0;
-  margin: 15px 30px;
+  margin: 15px auto 30px;
   flex-wrap: wrap;
   flex: 1 1 100%;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  
 
 }
 
 .card{
  display: block;
  text-align: center;
- background: rgba(0,0,0,0.2);
+ background: rgba(0,0,0,0.5);
  box-sizing: border-box;
  border-radius: 15px;
  width: 80%;
  height: 300px;
  margin: 5% auto 0%;
- padding: 10% 10% 6%;
+ padding: 70px 10% 6%;
   
+}
+
+@media screen and (min-width: 480px) {
+    .card {
+        padding: 100px 10% 6%;
+    }
 }
